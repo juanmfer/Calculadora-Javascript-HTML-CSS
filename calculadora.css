@@ -1,0 +1,84 @@
+body{
+    margin-top: 10%;
+}
+.calculadora {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #5350504f;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 15px #535050;
+}
+.salida {
+    display: grid;
+    font-size: 2em;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #5350504f;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+  }
+.boton {
+    display: flex;
+    font-size: 1.6em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    transition: all 0.3s ease-in;
+    border: 0.3px solid #cfcdcd;
+}
+.botonEliminar {
+    display: flex;
+    font-size: 1.2em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #ebe7e7;
+    transition: all 0.3s ease-in;
+    border: 0.3px solid #cfcdcd;
+}
+.botonLimpiar {
+    display: flex;
+    font-size: 1.6em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #fc1e01;
+    color:white;
+    transition: all 0.3s ease-in;
+    border: 0.3px solid #cfcfcd;
+}
+.dot {
+    grid-column: span 2;
+}
+.botonIgual {
+    display: flex;
+    font-size: 1.6em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #0abe19;
+    color:white;
+    transition: all 0.3s ease-in;
+    border: 0.3px solid #cfcfcd;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora en JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+<body>
+    <div class="calculadora">
+        <div class="salida" id="salida"></div>
+        <div class="botones">
+            <div class="boton" onclick="insertarSalida('7')">7</div>
+            <div class="boton" onclick="insertarSalida('8')">8</div>
+            <div class="boton" onclick="insertarSalida('9')">9</div>
+            <div class="boton" onclick="insertarSalida('/')">÷</div>
+            <div class="boton" onclick="insertarSalida('4')">4</div>
+            <div class="boton" onclick="insertarSalida('5')">5</div>
+            <div class="boton" onclick="insertarSalida('6')">6</div>
+            <div class="boton" onclick="insertarSalida('*')">&#215;</div>
+            <div class="boton" onclick="insertarSalida('1')">1</div>
+            <div class="boton" onclick="insertarSalida('2')">2</div>
+            <div class="boton" onclick="insertarSalida('3')">3</div>
+            <div class="boton" onclick="insertarSalida('-')">-</div>
+            <div class="boton" onclick="insertarSalida('0')">0</div>
+            <div class="boton" onclick="insertarSalida('.')">.</div>
+            <div class="botonIgual" onclick="resultado()">=</div>
+            <div class="boton" onclick="insertarSalida('+')">+</div>
+            <div class="botonEliminar dot" onclick="eliminarNum()">⌦</div>
+        <div class="botonLimpiar dot" onclick="limpiarSalida()">C</div>
+        </div>
+    </div>
+    <script src="calculadora.js"></script>
+</head>
+</body>
+</html>
